@@ -10,15 +10,15 @@ set(JUCE_PATH "$ENV{HOME}/JUCE")
 add_subdirectory(${JUCE_PATH} ${CMAKE_BINARY_DIR}/JUCE)
 
 juce_add_plugin(VelocityManipulator
-    COMPANY_NAME "VST3Projects"
+    COMPANY_NAME "ALDEN HAMMERSMITH"
     IS_SYNTH FALSE
     NEEDS_MIDI_INPUT TRUE
     NEEDS_MIDI_OUTPUT TRUE
     IS_MIDI_EFFECT TRUE
-    PLUGIN_MANUFACTURER_CODE Vst3
+    PLUGIN_MANUFACTURER_CODE AldH
     PLUGIN_CODE VelM
     FORMATS VST3 AU Standalone
-    PRODUCT_NAME "Velocity Manipulator"
+    PRODUCT_NAME "ALDENHammersmith_Velocity Manipulator"
 )
 
 target_sources(VelocityManipulator
